@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Faker",
+  "version": "0.1",
+  "description": "Faker Generator",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background" : {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
