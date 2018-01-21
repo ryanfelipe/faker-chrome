@@ -9,6 +9,7 @@
   ],
   "background" : {
     "scripts": [
+      "libs/faker.min.js",
       "background.js"
     ]
   },
