@@ -592,6 +592,65 @@
         "action": "phoneFormats"
       }
     ]
+  },
+  {
+    "title": "Random",
+    "id": "random",
+    "children": [
+      {
+        "title": "Number",
+        "id": "random-number",
+        "parentAction": "random",
+        "action": "number"
+      },
+      {
+        "title": "UUID",
+        "id": "random-uuid",
+        "parentAction": "random",
+        "action": "uuid"
+      },
+      {
+        "title": "Boolean",
+        "id": "random-boolean",
+        "parentAction": "random",
+        "action": "boolean"
+      },
+      {
+        "title": "Word",
+        "id": "random-word",
+        "parentAction": "random",
+        "action": "word"
+      },
+      {
+        "title": "Words",
+        "id": "random-words",
+        "parentAction": "random",
+        "action": "words"
+      },
+      {
+        "title": "Image",
+        "id": "random-image",
+        "parentAction": "random",
+        "action": "image"
+      },
+      {
+        "title": "Locale",
+        "id": "random-locale",
+        "parentAction": "random",
+        "action": "locale"
+      },
+      {
+        "title": "Alpha Numeric",
+        "id": "random-alphaNumeric",
+        "parentAction": "random",
+        "action": "alphaNumeric"
+      },
+      {
+        "title": "Hexadecimal",
+        "id": "random-hexaDecimal",
+        "parentAction": "random",
+        "action": "hexaDecimal"
+      }
+    ]
   }
-
 ]
