@@ -10,5 +10,101 @@
     "id": "email",
     "parentAction": "internet",
     "action": "email"
+  },
+  {
+    "title": "Address",
+    "id": "address",
+    "children": [
+      {
+        "title": "Zip Code",
+        "id": "address-zipCode",
+        "parentAction": "address",
+        "action": "zipCode"
+      },
+      {
+        "title": "City",
+        "id": "address-city",
+        "parentAction": "address",
+        "action": "city"
+      },
+      {
+        "title": "City Prefix",
+        "id": "address-cityPrefix",
+        "parentAction": "address",
+        "action": "cityPrefix"
+      },
+      {
+        "title": "City Suffix",
+        "id": "address-citySuffix",
+        "parentAction": "address",
+        "action": "citySuffix"
+      },
+      {
+        "title": "Street Name",
+        "id": "address-streetName",
+        "parentAction": "address",
+        "action": "streetName"
+      },
+      {
+        "title": "Street Address",
+        "id": "address-streetAddress",
+        "parentAction": "address",
+        "action": "streetAddress"
+      },
+      {
+        "title": "Street Suffix",
+        "id": "address-streetSuffix",
+        "parentAction": "address",
+        "action": "streetSuffix"
+      },
+      {
+        "title": "Street Prefix",
+        "id": "address-streetPrefix",
+        "parentAction": "address",
+        "action": "streetPrefix"
+      },
+      {
+        "title": "Secondary Address",
+        "id": "address-secondaryAddress",
+        "parentAction": "address",
+        "action": "secondaryAddress"
+      },
+      {
+        "title": "Country",
+        "id": "address-county",
+        "parentAction": "address",
+        "action": "county"
+      },
+      {
+        "title": "Country Code",
+        "id": "address-countryCode",
+        "parentAction": "address",
+        "action": "countryCode"
+      },
+      {
+        "title": "State",
+        "id": "address-state",
+        "parentAction": "address",
+        "action": "state"
+      },
+      {
+        "title": "State Abbr",
+        "id": "address-stateAbbr",
+        "parentAction": "address",
+        "action": "stateAbbr"
+      },
+      {
+        "title": "Latitude",
+        "id": "address-latitude",
+        "parentAction": "address",
+        "action": "latitude"
+      },
+      {
+        "title": "Longitude",
+        "id": "address-longitude",
+        "parentAction": "address",
+        "action": "longitude"
+      }
+    ]
   }
 ]
