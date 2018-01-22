@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm faker.zip
-zip faker.zip libs/ background.js content.js contextMenus.json icon128.png manifest.json
+zip faker.zip libs/ libs/faker.min.js background.js content.js contextMenus.json icon128.png manifest.json
