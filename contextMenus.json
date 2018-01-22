@@ -322,5 +322,47 @@
         "action": "bic"
       }
     ]
+  },
+  {
+    "title": "Hacker",
+    "id": "hacker",
+    "children": [
+      {
+        "title": "Abbreviation",
+        "id": "hacker-abbreviation",
+        "parentAction": "hacker",
+        "action": "abbreviation"
+      },
+      {
+        "title": "Adjective",
+        "id": "hacker-adjective",
+        "parentAction": "hacker",
+        "action": "adjective"
+      },
+      {
+        "title": "Noun",
+        "id": "hacker-noun",
+        "parentAction": "hacker",
+        "action": "noun"
+      },
+      {
+        "title": "Verb",
+        "id": "hacker-verb",
+        "parentAction": "hacker",
+        "action": "verb"
+      },
+      {
+        "title": "Ingverb",
+        "id": "hacker-ingverb",
+        "parentAction": "hacker",
+        "action": "ingverb"
+      },
+      {
+        "title": "Phrase",
+        "id": "hacker-phrase",
+        "parentAction": "hacker",
+        "action": "phrase"
+      }
+    ]
   }
 ]
