@@ -616,49 +616,49 @@
     "id": "system",
     "children": [
       {
-        "title": "fileName",
+        "title": "File Name",
         "id": "system-fileName",
         "parentAction": "system",
         "action": "fileName"
       },
       {
-        "title": "commonFileName",
+        "title": "Common File Name",
         "id": "system-commonFileName",
         "parentAction": "system",
         "action": "commonFileName"
       },
       {
-        "title": "mimeType",
+        "title": "MIME Type",
         "id": "system-mimeType",
         "parentAction": "system",
         "action": "mimeType"
       },
       {
-        "title": "commonFileType",
+        "title": "Common File Type",
         "id": "system-commonFileType",
         "parentAction": "system",
         "action": "commonFileType"
       },
       {
-        "title": "commonFileExt",
+        "title": "Common File Ext",
         "id": "system-commonFileExt",
         "parentAction": "system",
         "action": "commonFileExt"
       },
       {
-        "title": "fileType",
+        "title": "File Type",
         "id": "system-fileType",
         "parentAction": "system",
         "action": "fileType"
       },
       {
-        "title": "fileExt",
+        "title": "File Ext",
         "id": "system-fileExt",
         "parentAction": "system",
         "action": "fileExt"
       },
       {
-        "title": "semver",
+        "title": "Semver",
         "id": "system-semver",
         "parentAction": "system",
         "action": "semver"
