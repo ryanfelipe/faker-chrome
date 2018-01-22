@@ -440,12 +440,6 @@
         "id": "image-transport",
         "parentAction": "image",
         "action": "transport"
-      },
-      {
-        "title": "Data Uri",
-        "id": "image-dataUri",
-        "parentAction": "image",
-        "action": "dataUri"
       }
     ]
   },
