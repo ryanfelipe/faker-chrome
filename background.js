@@ -19,9 +19,11 @@ const createSimpleGenerator = function({title, id, parentId, parentAction, actio
         parentId: parentId || "parent",
         contexts: contexts,
         onclick: function (info, tab) {
+            let result = faker[parentAction][action]();
+
             chrome.tabs.sendMessage(tab.id, {
-                event: "write",
-                value: faker[parentAction][action]()
+                event: info.editable ? "write" : "alert",
+                value: result
             });
         }
     });
