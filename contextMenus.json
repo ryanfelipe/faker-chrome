@@ -472,5 +472,101 @@
         "action": "dataUri"
       }
     ]
+  },
+  {
+    "title": "Internet",
+    "id": "internet",
+    "children": [
+      {
+        "title": "avatar",
+        "id": "avatar",
+        "parentAction": "internet",
+        "action": "avatar"
+      },
+      {
+        "title": "email",
+        "id": "email",
+        "parentAction": "internet",
+        "action": "email"
+      },
+      {
+        "title": "exampleEmail",
+        "id": "exampleEmail",
+        "parentAction": "internet",
+        "action": "exampleEmail"
+      },
+      {
+        "title": "userName",
+        "id": "userName",
+        "parentAction": "internet",
+        "action": "userName"
+      },
+      {
+        "title": "protocol",
+        "id": "protocol",
+        "parentAction": "internet",
+        "action": "protocol"
+      },
+      {
+        "title": "url",
+        "id": "url",
+        "parentAction": "internet",
+        "action": "url"
+      },
+      {
+        "title": "domainName",
+        "id": "domainName",
+        "parentAction": "internet",
+        "action": "domainName"
+      },
+      {
+        "title": "domainSuffix",
+        "id": "domainSuffix",
+        "parentAction": "internet",
+        "action": "domainSuffix"
+      },
+      {
+        "title": "domainWord",
+        "id": "domainWord",
+        "parentAction": "internet",
+        "action": "domainWord"
+      },
+      {
+        "title": "ip",
+        "id": "ip",
+        "parentAction": "internet",
+        "action": "ip"
+      },
+      {
+        "title": "ipv6",
+        "id": "ipv6",
+        "parentAction": "internet",
+        "action": "ipv6"
+      },
+      {
+        "title": "userAgent",
+        "id": "userAgent",
+        "parentAction": "internet",
+        "action": "userAgent"
+      },
+      {
+        "title": "color",
+        "id": "color",
+        "parentAction": "internet",
+        "action": "color"
+      },
+      {
+        "title": "mac",
+        "id": "mac",
+        "parentAction": "internet",
+        "action": "mac"
+      },
+      {
+        "title": "password",
+        "id": "password",
+        "parentAction": "internet",
+        "action": "password"
+      }
+    ]
   }
 ]
