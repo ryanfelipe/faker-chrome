@@ -4,5 +4,11 @@
     "id": "name",
     "parentAction": "name",
     "action": "findName"
+  },
+  {
+    "title": "Email",
+    "id": "email",
+    "parentAction": "internet",
+    "action": "email"
   }
 ]
