@@ -161,67 +161,67 @@
     "children": [
       {
         "title": "Suffixes",
-        "id": "suffixes",
+        "id": "company-suffixes",
         "parentAction": "company",
         "action": "suffixes"
       },
       {
         "title": "Company Name",
-        "id": "companyName",
+        "id": "company-companyName",
         "parentAction": "company",
         "action": "companyName"
       },
       {
         "title": "Company Suffix",
-        "id": "companySuffix",
+        "id": "company-companySuffix",
         "parentAction": "company",
         "action": "companySuffix"
       },
       {
         "title": "Catch Phrase",
-        "id": "catchPhrase",
+        "id": "company-catchPhrase",
         "parentAction": "company",
         "action": "catchPhrase"
       },
       {
         "title": "Bs",
-        "id": "bs",
+        "id": "company-bs",
         "parentAction": "company",
         "action": "bs"
       },
       {
         "title": "Catch Phrase Adjective",
-        "id": "catchPhraseAdjective",
+        "id": "company-catchPhraseAdjective",
         "parentAction": "company",
         "action": "catchPhraseAdjective"
       },
       {
         "title": "Catch Phrase Descriptor",
-        "id": "catchPhraseDescriptor",
+        "id": "company-catchPhraseDescriptor",
         "parentAction": "company",
         "action": "catchPhraseDescriptor"
       },
       {
         "title": "Catch Phrase Noun",
-        "id": "catchPhraseNoun",
+        "id": "company-catchPhraseNoun",
         "parentAction": "company",
         "action": "catchPhraseNoun"
       },
       {
         "title": "Bs Adjective",
-        "id": "bsAdjective",
+        "id": "company-bsAdjective",
         "parentAction": "company",
         "action": "bsAdjective"
       },
       {
         "title": "Bs Buzz",
-        "id": "bsBuzz",
+        "id": "company-bsBuzz",
         "parentAction": "company",
         "action": "bsBuzz"
       },
       {
         "title": "Bs Noun",
-        "id": "bsNoun",
+        "id": "company-bsNoun",
         "parentAction": "company",
         "action": "bsNoun"
       }
