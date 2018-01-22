@@ -226,5 +226,23 @@
         "action": "bsNoun"
       }
     ]
+  },
+  {
+    "title": "Date",
+    "id": "date",
+    "children": [
+      {
+        "title": "Month",
+        "id": "date-month",
+        "parentAction": "date",
+        "action": "month"
+      },
+      {
+        "title": "Weekday",
+        "id": "date-weekday",
+        "parentAction": "date",
+        "action": "weekday"
+      }
+    ]
   }
 ]
