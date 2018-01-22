@@ -39,7 +39,37 @@ const createSimpleMenu = function({title, id, parentId}) {
     return chrome.contextMenus.create({
         title: title,
         id: id,
-        parentId: parentId || "parent"
+        parentId: parentId || "parent",
+        contexts: contexts
+    });
+};
+
+/**
+ * Load all items.
+ *
+ * @param items
+ * @param parent
+ */
+const loadAllItems = function(items, parent) {
+    items.map(function (item) {
+        if (item.children) {
+            createSimpleMenu({
+                title: item.title,
+                id: item.id,
+                parentId: item.parentId || parent
+            });
+
+            loadAllItems(item.children, item.id);
+            return item;
+        }
+
+        createSimpleGenerator({
+            title: item.title,
+            id: item.id,
+            parentId: item.parentId || parent,
+            parentAction: item.parentAction,
+            action: item.action
+        })
     });
 };
 
@@ -48,3 +78,12 @@ chrome.contextMenus.create({
     "id": "parent",
     "contexts": contexts
 });
+
+var xhr = new XMLHttpRequest;
+xhr.open("GET", chrome.runtime.getURL("contextMenus.json"));
+xhr.onreadystatechange = function() {
+    if (this.readyState == 4) {
+        loadAllItems(JSON.parse(xhr.responseText));
+    }
+};
+xhr.send();
