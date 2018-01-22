@@ -478,92 +478,92 @@
     "id": "internet",
     "children": [
       {
-        "title": "avatar",
-        "id": "avatar",
+        "title": "Avatar",
+        "id": "internet-avatar",
         "parentAction": "internet",
         "action": "avatar"
       },
       {
-        "title": "email",
-        "id": "email",
+        "title": "Email",
+        "id": "internet-email",
         "parentAction": "internet",
         "action": "email"
       },
       {
-        "title": "exampleEmail",
-        "id": "exampleEmail",
+        "title": "Example Email",
+        "id": "internet-exampleEmail",
         "parentAction": "internet",
         "action": "exampleEmail"
       },
       {
-        "title": "userName",
-        "id": "userName",
+        "title": "UserName",
+        "id": "internet-userName",
         "parentAction": "internet",
         "action": "userName"
       },
       {
-        "title": "protocol",
-        "id": "protocol",
+        "title": "Protocol",
+        "id": "internet-protocol",
         "parentAction": "internet",
         "action": "protocol"
       },
       {
-        "title": "url",
-        "id": "url",
+        "title": "Url",
+        "id": "internet-url",
         "parentAction": "internet",
         "action": "url"
       },
       {
-        "title": "domainName",
-        "id": "domainName",
+        "title": "Domain Name",
+        "id": "internet-domainName",
         "parentAction": "internet",
         "action": "domainName"
       },
       {
-        "title": "domainSuffix",
-        "id": "domainSuffix",
+        "title": "Domain Suffix",
+        "id": "internet-domainSuffix",
         "parentAction": "internet",
         "action": "domainSuffix"
       },
       {
-        "title": "domainWord",
-        "id": "domainWord",
+        "title": "Domain Word",
+        "id": "internet-domainWord",
         "parentAction": "internet",
         "action": "domainWord"
       },
       {
-        "title": "ip",
-        "id": "ip",
+        "title": "IP",
+        "id": "internet-ip",
         "parentAction": "internet",
         "action": "ip"
       },
       {
-        "title": "ipv6",
-        "id": "ipv6",
+        "title": "IPv6",
+        "id": "internet-ipv6",
         "parentAction": "internet",
         "action": "ipv6"
       },
       {
-        "title": "userAgent",
-        "id": "userAgent",
+        "title": "User Agent",
+        "id": "internet-userAgent",
         "parentAction": "internet",
         "action": "userAgent"
       },
       {
-        "title": "color",
-        "id": "color",
+        "title": "Color",
+        "id": "internet-color",
         "parentAction": "internet",
         "action": "color"
       },
       {
-        "title": "mac",
-        "id": "mac",
+        "title": "MAC",
+        "id": "internet-mac",
         "parentAction": "internet",
         "action": "mac"
       },
       {
-        "title": "password",
-        "id": "password",
+        "title": "Password",
+        "id": "internet-password",
         "parentAction": "internet",
         "action": "password"
       }
