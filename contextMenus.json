@@ -508,12 +508,6 @@
         "action": "ip"
       },
       {
-        "title": "IPv6",
-        "id": "internet-ipv6",
-        "parentAction": "internet",
-        "action": "ipv6"
-      },
-      {
         "title": "User Agent",
         "id": "internet-userAgent",
         "parentAction": "internet",
