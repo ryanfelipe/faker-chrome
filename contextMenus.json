@@ -658,12 +658,6 @@
         "action": "fileExt"
       },
       {
-        "title": "filePath",
-        "id": "system-filePath",
-        "parentAction": "system",
-        "action": "filePath"
-      },
-      {
         "title": "semver",
         "id": "system-semver",
         "parentAction": "system",
