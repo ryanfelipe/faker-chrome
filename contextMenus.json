@@ -658,12 +658,6 @@
         "action": "fileExt"
       },
       {
-        "title": "directoryPath",
-        "id": "system-directoryPath",
-        "parentAction": "system",
-        "action": "directoryPath"
-      },
-      {
         "title": "filePath",
         "id": "system-filePath",
         "parentAction": "system",
