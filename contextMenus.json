@@ -652,5 +652,71 @@
         "action": "hexaDecimal"
       }
     ]
+  },
+  {
+    "title": "System",
+    "id": "system",
+    "children": [
+      {
+        "title": "fileName",
+        "id": "system-fileName",
+        "parentAction": "system",
+        "action": "fileName"
+      },
+      {
+        "title": "commonFileName",
+        "id": "system-commonFileName",
+        "parentAction": "system",
+        "action": "commonFileName"
+      },
+      {
+        "title": "mimeType",
+        "id": "system-mimeType",
+        "parentAction": "system",
+        "action": "mimeType"
+      },
+      {
+        "title": "commonFileType",
+        "id": "system-commonFileType",
+        "parentAction": "system",
+        "action": "commonFileType"
+      },
+      {
+        "title": "commonFileExt",
+        "id": "system-commonFileExt",
+        "parentAction": "system",
+        "action": "commonFileExt"
+      },
+      {
+        "title": "fileType",
+        "id": "system-fileType",
+        "parentAction": "system",
+        "action": "fileType"
+      },
+      {
+        "title": "fileExt",
+        "id": "system-fileExt",
+        "parentAction": "system",
+        "action": "fileExt"
+      },
+      {
+        "title": "directoryPath",
+        "id": "system-directoryPath",
+        "parentAction": "system",
+        "action": "directoryPath"
+      },
+      {
+        "title": "filePath",
+        "id": "system-filePath",
+        "parentAction": "system",
+        "action": "filePath"
+      },
+      {
+        "title": "semver",
+        "id": "system-semver",
+        "parentAction": "system",
+        "action": "semver"
+      }
+    ]
   }
 ]
