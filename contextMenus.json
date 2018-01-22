@@ -568,5 +568,30 @@
         "action": "password"
       }
     ]
+  },
+  {
+    "title": "Phone",
+    "id": "phone",
+    "children": [
+      {
+        "title": "Phone Number",
+        "id": "phone-phoneNumber",
+        "parentAction": "phone",
+        "action": "phoneNumber"
+      },
+      {
+        "title": "Phone Number Format",
+        "id": "phone-phoneNumberFormat",
+        "parentAction": "phone",
+        "action": "phoneNumberFormat"
+      },
+      {
+        "title": "Phone Formats",
+        "id": "phone-phoneFormats",
+        "parentAction": "phone",
+        "action": "phoneFormats"
+      }
+    ]
   }
+
 ]
