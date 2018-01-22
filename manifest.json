@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Faker",
   "version": "0.1",
-  "description": "Faker Generator",
+  "description": "Generate fake data in the browser",
   "permissions": [
     "contextMenus",
     "tabs"
