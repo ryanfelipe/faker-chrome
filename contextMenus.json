@@ -160,12 +160,6 @@
     "id": "company",
     "children": [
       {
-        "title": "Suffixes",
-        "id": "company-suffixes",
-        "parentAction": "company",
-        "action": "suffixes"
-      },
-      {
         "title": "Company Name",
         "id": "company-companyName",
         "parentAction": "company",
