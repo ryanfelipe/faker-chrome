@@ -296,12 +296,6 @@
         "id": "finance-bitcoinAddress",
         "parentAction": "finance",
         "action": "bitcoinAddress"
-      },
-      {
-        "title": "Bic",
-        "id": "finance-bic",
-        "parentAction": "finance",
-        "action": "bic"
       }
     ]
   },
