@@ -608,12 +608,6 @@
         "id": "random-alphaNumeric",
         "parentAction": "random",
         "action": "alphaNumeric"
-      },
-      {
-        "title": "Hexadecimal",
-        "id": "random-hexaDecimal",
-        "parentAction": "random",
-        "action": "hexaDecimal"
       }
     ]
   },
