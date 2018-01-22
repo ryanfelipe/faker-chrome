@@ -298,12 +298,6 @@
         "action": "bitcoinAddress"
       },
       {
-        "title": "Ethereum Address",
-        "id": "finance-ethereumAddress",
-        "parentAction": "finance",
-        "action": "ethereumAddress"
-      },
-      {
         "title": "Iban",
         "id": "finance-iban",
         "parentAction": "finance",
