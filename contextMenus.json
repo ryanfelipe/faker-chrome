@@ -364,5 +364,113 @@
         "action": "phrase"
       }
     ]
+  },
+  {
+    "title": "Image",
+    "id": "image",
+    "children": [
+      {
+        "title": "Image",
+        "id": "image-image",
+        "parentAction": "image",
+        "action": "image"
+      },
+      {
+        "title": "Avatar",
+        "id": "image-avatar",
+        "parentAction": "image",
+        "action": "avatar"
+      },
+      {
+        "title": "Image Url",
+        "id": "image-imageUrl",
+        "parentAction": "image",
+        "action": "imageUrl"
+      },
+      {
+        "title": "Abstract",
+        "id": "image-abstract",
+        "parentAction": "image",
+        "action": "abstract"
+      },
+      {
+        "title": "Animals",
+        "id": "image-animals",
+        "parentAction": "image",
+        "action": "animals"
+      },
+      {
+        "title": "Business",
+        "id": "image-business",
+        "parentAction": "image",
+        "action": "business"
+      },
+      {
+        "title": "Cats",
+        "id": "image-cats",
+        "parentAction": "image",
+        "action": "cats"
+      },
+      {
+        "title": "City",
+        "id": "image-city",
+        "parentAction": "image",
+        "action": "city"
+      },
+      {
+        "title": "Food",
+        "id": "image-food",
+        "parentAction": "image",
+        "action": "food"
+      },
+      {
+        "title": "Nightlife",
+        "id": "image-nightlife",
+        "parentAction": "image",
+        "action": "nightlife"
+      },
+      {
+        "title": "Fashion",
+        "id": "image-fashion",
+        "parentAction": "image",
+        "action": "fashion"
+      },
+      {
+        "title": "People",
+        "id": "image-people",
+        "parentAction": "image",
+        "action": "people"
+      },
+      {
+        "title": "Nature",
+        "id": "image-nature",
+        "parentAction": "image",
+        "action": "nature"
+      },
+      {
+        "title": "Sports",
+        "id": "image-sports",
+        "parentAction": "image",
+        "action": "sports"
+      },
+      {
+        "title": "Technics",
+        "id": "image-technics",
+        "parentAction": "image",
+        "action": "technics"
+      },
+      {
+        "title": "Transport",
+        "id": "image-transport",
+        "parentAction": "image",
+        "action": "transport"
+      },
+      {
+        "title": "Data Uri",
+        "id": "image-dataUri",
+        "parentAction": "image",
+        "action": "dataUri"
+      }
+    ]
   }
 ]
