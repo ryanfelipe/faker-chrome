@@ -106,5 +106,53 @@
         "action": "longitude"
       }
     ]
+  },
+  {
+    "title": "Commerce",
+    "id": "commerce",
+    "children": [
+      {
+        "title": "Color",
+        "id": "commerce-color",
+        "parentAction": "commerce",
+        "action": "color"
+      },
+      {
+        "title": "Department",
+        "id": "commerce-department",
+        "parentAction": "commerce",
+        "action": "department"
+      },
+      {
+        "title": "Product Name",
+        "id": "commerce-productName",
+        "parentAction": "commerce",
+        "action": "productName"
+      },
+      {
+        "title": "Price",
+        "id": "commerce-price",
+        "parentAction": "commerce",
+        "action": "price"
+      },
+      {
+        "title": "Product Adjective",
+        "id": "commerce-productAdjective",
+        "parentAction": "commerce",
+        "action": "productAdjective"
+      },
+      {
+        "title": "Product Material",
+        "id": "commerce-productMaterial",
+        "parentAction": "commerce",
+        "action": "productMaterial"
+      },
+      {
+        "title": "Product",
+        "id": "commerce-product",
+        "parentAction": "commerce",
+        "action": "product"
+      }
+    ]
   }
 ]
