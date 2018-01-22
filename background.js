@@ -1,5 +1,5 @@
 const contexts = [
-    "editable", "selection"
+    "editable", "selection", "page"
 ];
 
 /**
