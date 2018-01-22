@@ -154,5 +154,77 @@
         "action": "product"
       }
     ]
+  },
+  {
+    "title": "Company",
+    "id": "company",
+    "children": [
+      {
+        "title": "Suffixes",
+        "id": "suffixes",
+        "parentAction": "company",
+        "action": "suffixes"
+      },
+      {
+        "title": "Company Name",
+        "id": "companyName",
+        "parentAction": "company",
+        "action": "companyName"
+      },
+      {
+        "title": "Company Suffix",
+        "id": "companySuffix",
+        "parentAction": "company",
+        "action": "companySuffix"
+      },
+      {
+        "title": "Catch Phrase",
+        "id": "catchPhrase",
+        "parentAction": "company",
+        "action": "catchPhrase"
+      },
+      {
+        "title": "Bs",
+        "id": "bs",
+        "parentAction": "company",
+        "action": "bs"
+      },
+      {
+        "title": "Catch Phrase Adjective",
+        "id": "catchPhraseAdjective",
+        "parentAction": "company",
+        "action": "catchPhraseAdjective"
+      },
+      {
+        "title": "Catch Phrase Descriptor",
+        "id": "catchPhraseDescriptor",
+        "parentAction": "company",
+        "action": "catchPhraseDescriptor"
+      },
+      {
+        "title": "Catch Phrase Noun",
+        "id": "catchPhraseNoun",
+        "parentAction": "company",
+        "action": "catchPhraseNoun"
+      },
+      {
+        "title": "Bs Adjective",
+        "id": "bsAdjective",
+        "parentAction": "company",
+        "action": "bsAdjective"
+      },
+      {
+        "title": "Bs Buzz",
+        "id": "bsBuzz",
+        "parentAction": "company",
+        "action": "bsBuzz"
+      },
+      {
+        "title": "Bs Noun",
+        "id": "bsNoun",
+        "parentAction": "company",
+        "action": "bsNoun"
+      }
+    ]
   }
 ]
