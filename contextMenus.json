@@ -244,5 +244,83 @@
         "action": "weekday"
       }
     ]
+  },
+  {
+    "title": "Finance",
+    "id": "finance",
+    "children": [
+      {
+        "title": "Cccount",
+        "id": "finance-account",
+        "parentAction": "finance",
+        "action": "account"
+      },
+      {
+        "title": "Account Name",
+        "id": "finance-accountName",
+        "parentAction": "finance",
+        "action": "accountName"
+      },
+      {
+        "title": "Mask",
+        "id": "finance-mask",
+        "parentAction": "finance",
+        "action": "mask"
+      },
+      {
+        "title": "Amount",
+        "id": "finance-amount",
+        "parentAction": "finance",
+        "action": "amount"
+      },
+      {
+        "title": "Transaction Type",
+        "id": "finance-transactionType",
+        "parentAction": "finance",
+        "action": "transactionType"
+      },
+      {
+        "title": "Currency Code",
+        "id": "finance-currencyCode",
+        "parentAction": "finance",
+        "action": "currencyCode"
+      },
+      {
+        "title": "Currency Name",
+        "id": "finance-currencyName",
+        "parentAction": "finance",
+        "action": "currencyName"
+      },
+      {
+        "title": "Currency Symbol",
+        "id": "finance-currencySymbol",
+        "parentAction": "finance",
+        "action": "currencySymbol"
+      },
+      {
+        "title": "Bitcoin Address",
+        "id": "finance-bitcoinAddress",
+        "parentAction": "finance",
+        "action": "bitcoinAddress"
+      },
+      {
+        "title": "Ethereum Address",
+        "id": "finance-ethereumAddress",
+        "parentAction": "finance",
+        "action": "ethereumAddress"
+      },
+      {
+        "title": "Iban",
+        "id": "finance-iban",
+        "parentAction": "finance",
+        "action": "iban"
+      },
+      {
+        "title": "Bic",
+        "id": "finance-bic",
+        "parentAction": "finance",
+        "action": "bic"
+      }
+    ]
   }
 ]
