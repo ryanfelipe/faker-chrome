@@ -22,3 +22,10 @@ chrome.contextMenus.create({
     "id": "parent",
     "contexts": contexts
 });
+
+createSimpleGenerator({
+    "title": "Name",
+    "id": "name",
+    "parentAction": "name",
+    "action": "findName"
+});
